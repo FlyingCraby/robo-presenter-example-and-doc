@@ -1,0 +1,47 @@
+My biggest challenge to prepare for this competition is I am too young.   I had a live chat with Amazon AWS to do my marketing research.  As soon as I told him I’m in 5th grade, he muted for three minutes and kicked me off the chat.  They might think it is a prank, not worthy their time for listening.  So I really want to thank you for coming to my presentation.
+
+
+What is the most important thing in tech these days? → AI, CHATGPT, it is really about Large language models, not Alexa or Siri.
+
+
+Hands-on models are critical to science and engineering education according to researchers and educators such as Dr Torrence Lewis, a principal of MA public school. 
+However, presenters are not always available. Maybe they are busy, or students want to learn again.
+That's how I got the idea to make a hands-on presentation bot.
+
+To my best knowledge, there aren't any existing solutions. The closest ones are smart home devices such as Alexa and robotics kits, such as Vex and Lego. Alexa can do some level of interaction with the audience and control appliances such as lights, fans, and refrigerators. However, they can’t learn subject knowledge about a presentation.  They are also difficult to program.  
+They need to learn javascript, python, c plus plus, or at least scratch.
+
+So you know why it is hard to build hands-on presentations.  Because you need two different skill sets. The first is about your subject. It can be anything, such as biology, music, or economy. The second is building the hands-on presentations, including electronics, mechanics, AND programming. 
+
+The Robo-Presenter is my solution.  I use large language models such as the popular ChatGPT for people to teach the AI not only the subject knowledge but also how to present. The Robo Presenter also provides add-ons, such as voice, audio, LEDs, sensors, and motors, for users to build hands-on presentations.
+
+How it works?
+First, Justin wrote about this presentation in text embedded with annotations about how to present with add-ons. 
+Next, I learn them through Prompt Engineering using frameworks like LangChain. 
+Then I listen to the audience using voice recognition and create answers in both text and annotations. 
+Finally I have a state machine to translate the text to voice and interpret the annotations to drive add-ons [all add-ons]
+
+Robo-presenter has many iterations. Initially it was just a record machine reading slides with add-ons. 
+Then, I added ChatGPT to understand audience questions.
+In the fourth version, it allowed users to teach the AI with programming.
+This is the latest.  You can teach it just using text.
+
+
+Besides Amazon giving me a little hard time, my tech challenges are from ChatGPT as it is so young, just like us.  For example, when I tried to use LangChain and a vector database last month, there is no solution for Raspberry Pi.  Fortunately, I found DeepLake from Activeloop, a software company in CA.  It worked on ARM CPU, but we still had several co-work sessions including a conference call two weeks ago to make it working on Raspberry pi.  I am talking about new technology created in the last few weeks, not even months or years.
+
+Let me tell you about more challenges.  First, ChartGPT is smart about general things, but doesn't know subject knowledge or news after 2021.  HOWEVER, people can’t change it by tuning.   Even if users want to change the LLM, such as the GPT model behind it, they don’t have enough training data.  I solved it with prompt engineering.   (Use conversation to teach AI and guide it to give useful answers).
+
+Maybe you don't know, when you ask chatGPT gives random answers, when it doesn’t have one.  This may be OK for chatting, but DEFINITELY not acceptable for education.  My solution is to evaluate the confidence of its answers before giving them to the audience.
+
+Finally, I want my users to focus on their subject and presentation, not programming with languages like python.   I let them teach AI just using text plus annotations.  This is called no code development, just like generating images using words instead of painting.   Remember, it is different from ChatGPT writing Python code after learning code from Github.  It actually writes answers in a way I invented.
+
+The Robo-Presenter’s first market is STEM education for K-12 school students.  The US has about 130,000 K-12 schools and their teachers are potential customers.  Through them, 49.5M students will be impacted.
+Financially, the global teaching material market for K-12 schools was over $100B, including $30B to $40B spent on STEM in 2021.  If every classroom in US K-12 schools buys one RoboPresenter, and each school buys some presentations to share, plus family customers, I estimate it a 50M to 100M-dollar market.  And remember, Robo-presenter has other markets, such as museums and commercial customers.
+
+As any project, there is always room for improvement and expansion.@  For example, add languages other than English; new add-ons; let AI to help users use add-ons; remove the needs of the network; upgrade to ChatGPT4
+
+Yes, speed is the key.  
+ChatGPT was released in Dec 2022.  LangChain becomes popular in early 2023.  Now in June, I am showing you they are running on Raspberry PI and driving sensors/motors w/o coding.  What will people bring here next year?  I believe a lot more AI powered inventions.
+
+Remember that company in CA?  They knew my age as I told them I used my dad’s email.  They still treated me as a peer engineer or partner, and wished me good luck in this competition.  That’s because they know in terms of ChatGPT, we are all less than 1 year old.  Young kids like me can create cutting edge inventions, just as what invention convention believes in us.
+

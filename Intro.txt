@@ -1,0 +1,28 @@
+[voice Lucy] [led 1 flashing] Hello, I am Lucy.  Justin’s assistant.
+[led 1 off] [voice Lucy] [led 1 flashing] You need to learn javascript, python, c plus plus, or scratch.
+
+[led 1 off] [voice Lucy] [led 1 flashing] Sure…..  Please follow Justin’s pointer.
+First, Justin wrote about this presentation in text embedded with annotations.  Text for subject knowledge and annotations for addon-ons as highlighted here. The QR code will show you more examples.
+Next, I use ChatGPT to learn them through Prompt Engineering using frameworks like LangChain. 
+Then I listen to the audience using voice recognition and use ChatGPT to generate answers in both text and annotations, not just repeating what Justin taught me.
+Finally I have a state machine to translate the text to voice and interpret the annotations to drive add-ons [led 1 on] [motor fast] [relay on]
+
+
+[wait 3] [led 1 off] [motor off] [relay off] 
+
+[voice Lucy] [led 1 flashing] When developing me, Justin had many challenges.  
+
+First, there is no solution to run LangChain and vector data base on a Raspberry Pi a month ago. [wait 2] Until Justin worked with Active Loop, a company located in California two weeks ago. 
+
+Second, ChartGPT is smart about general things, but it doesn’t know subject knowledge and news after 2021.  
+
+Third, ChatGPT gives wrong answers, when it doesn’t have one.  This may be OK for chatting, but DEFINITELY not acceptable for education.  
+
+ We don’t have much time to give details now, but we are happy to answer your questions or discuss them later.
+
+
+
+[led 1 off] [voice Lucy] [led 1 flashing]: I’d like to speak languages other than English; help users to use add-ons; work without network; and fast upgrading
+[led 1 off][voice thank you] [led 1 flashing] Questions?[led 1 off]
+
+[stopafterqa]
